@@ -231,7 +231,7 @@ export default class extends Component {
 
   // include internals with state
   fullState () {
-    return Object.assign({}, this.state, this.internals)
+    return { ...this.state, ...this.internals };
   }
 
   loopJump = () => {
