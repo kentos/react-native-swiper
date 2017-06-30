@@ -97,33 +97,33 @@ export default class extends Component {
    * Props Validation
    * @type {Object}
    */
-  static propTypes = {
-    horizontal: PropTypes.bool,
-    children: PropTypes.node.isRequired,
-    style: View.propTypes.style,
-    pagingEnabled: PropTypes.bool,
-    showsHorizontalScrollIndicator: PropTypes.bool,
-    showsVerticalScrollIndicator: PropTypes.bool,
-    bounces: PropTypes.bool,
-    scrollsToTop: PropTypes.bool,
-    removeClippedSubviews: PropTypes.bool,
-    automaticallyAdjustContentInsets: PropTypes.bool,
-    showsPagination: PropTypes.bool,
-    showsButtons: PropTypes.bool,
-    loadMinimal: PropTypes.bool,
-    loadMinimalSize: PropTypes.number,
-    loadMinimalLoader: PropTypes.element,
-    loop: PropTypes.bool,
-    autoplay: PropTypes.bool,
-    autoplayTimeout: PropTypes.number,
-    autoplayDirection: PropTypes.bool,
-    index: PropTypes.number,
-    renderPagination: PropTypes.func,
-    dotStyle: PropTypes.object,
-    activeDotStyle: PropTypes.object,
-    dotColor: PropTypes.string,
-    activeDotColor: PropTypes.string
-  }
+  // static propTypes = {
+  //   horizontal: PropTypes.bool,
+  //   children: PropTypes.node.isRequired,
+  //   style: View.propTypes.style,
+  //   pagingEnabled: PropTypes.bool,
+  //   showsHorizontalScrollIndicator: PropTypes.bool,
+  //   showsVerticalScrollIndicator: PropTypes.bool,
+  //   bounces: PropTypes.bool,
+  //   scrollsToTop: PropTypes.bool,
+  //   removeClippedSubviews: PropTypes.bool,
+  //   automaticallyAdjustContentInsets: PropTypes.bool,
+  //   showsPagination: PropTypes.bool,
+  //   showsButtons: PropTypes.bool,
+  //   loadMinimal: PropTypes.bool,
+  //   loadMinimalSize: PropTypes.number,
+  //   loadMinimalLoader: PropTypes.element,
+  //   loop: PropTypes.bool,
+  //   autoplay: PropTypes.bool,
+  //   autoplayTimeout: PropTypes.number,
+  //   autoplayDirection: PropTypes.bool,
+  //   index: PropTypes.number,
+  //   renderPagination: PropTypes.func,
+  //   dotStyle: PropTypes.object,
+  //   activeDotStyle: PropTypes.object,
+  //   dotColor: PropTypes.string,
+  //   activeDotColor: PropTypes.string
+  // }
 
   /**
    * Default props
