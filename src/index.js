@@ -2,7 +2,7 @@
  * react-native-swiper
  * @author leecade<leecade@163.com>
  */
-import React, { Component, PropTypes, ViewPropTypes } from 'react'
+import React, { Component, PropTypes } from 'react'
 import {
   Text,
   View,
@@ -11,7 +11,8 @@ import {
   TouchableOpacity,
   ViewPagerAndroid,
   Platform,
-  ActivityIndicator
+  ActivityIndicator,
+  ViewPropTypes
 } from 'react-native'
 
 const { width, height } = Dimensions.get('window')
